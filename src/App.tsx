@@ -3,6 +3,7 @@ import './App.css';
 import { SideBarMenu } from './components/SideBarMenu';
 import { SideBarMenuCard, SideBarMenuItem } from './types/types';
 import { FcAdvertising } from 'react-icons/fc';
+import profileImage from './assets/IMG_20210807_194909.jpg'
 
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
     id: 'card01',
     displayName: "Jose Luis",
     title: 'Studient',
-    photoUrl: "",
+    photoUrl: profileImage,
     url: '/'
   }
 

@@ -6,6 +6,8 @@ import { VscMenu } from "react-icons/vsc";
 import SideBarMenuCardView from "./SideBarMenuCardView";
 import SideBarMenuItemView from "./SideBarMenuItemView";
 
+import "./SideBarMenu.scss"
+
 interface SideBarMenuProps{
     items: SideBarMenuItem[];
     card: SideBarMenuCard;
