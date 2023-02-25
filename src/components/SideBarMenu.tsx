@@ -23,8 +23,8 @@ export function SideBarMenu( {items, card}: SideBarMenuProps){
 
 
     return <div className={classNames('SideBarMenu', isOpen ? 'expanded' : 'collapsed')}>
-        <div className="menuBotton">
-            <button className="hamburgerButton" onClick={handleClick}>
+        <div className="menuButton">
+            <button className="hamburgerIcon" onClick={handleClick}>
                 <VscMenu />
             </button>
         </div>
