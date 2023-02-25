@@ -1,8 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { SideBarMenu } from './components/SideBarMenu';
 import { SideBarMenuCard, SideBarMenuItem } from './types/types';
+import { FcAdvertising } from 'react-icons/fc';
+
 
 function App() {
 
@@ -10,7 +11,19 @@ function App() {
     {
       id: '1',
       label: 'Hola',
-      icon: "FcAdvertising",
+      icon: FcAdvertising,
+      url: '/'
+    },
+    {
+      id: '1',
+      label: 'Hola',
+      icon: FcAdvertising,
+      url: '/'
+    },
+    {
+      id: '1',
+      label: 'Hola',
+      icon: FcAdvertising,
       url: '/'
     }
   ];
