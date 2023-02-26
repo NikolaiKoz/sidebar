@@ -3,10 +3,10 @@
 .SideBarMenu{
     background-color: #222;
     color: white;
-    position: absolute;
+    position: static;
     left: 0;
     top: 0;
-    height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 

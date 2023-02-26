@@ -15,9 +15,9 @@ interface SideBarMenuProps{
 
 export function SideBarMenu( {items, card}: SideBarMenuProps){
 
-    const [isOpen, setIsOpen] = useState<boolean>(true);
+    const [isOpen, setIsOpen] = useState<boolean>(false);
 
-    function handleClick(e: any) {
+    function handleClick(e: React.MouseEvent<HTMLButtonElement>) {
         setIsOpen(!isOpen);
     }
 

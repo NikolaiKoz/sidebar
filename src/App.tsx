@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import { SideBarMenu } from './components/SideBarMenu';
 import { SideBarMenuCard, SideBarMenuItem } from './types/types';
-import { FcAdvertising } from 'react-icons/fc';
-import profileImage from './assets/IMG_20210807_194909.jpg'
+import { FcAdvertising, FcAutomatic, FcChargeBattery, FcBullish, FcPlanner, FcComments, FcCustomerSupport, FcFlowChart, FcSearch, FcSettings } from 'react-icons/fc';
+import profileImage from './assets/img-profile.png'
 
 
 function App() {
@@ -11,22 +11,64 @@ function App() {
   const items: SideBarMenuItem[] = [
     {
       id: '1',
-      label: 'Hola',
+      label: 'Anuncios',
       icon: FcAdvertising,
       url: '/'
     },
     {
-      id: '1',
-      label: 'Hola',
-      icon: FcAdvertising,
+      id: '2',
+      label: 'Automatizacion',
+      icon: FcAutomatic,
       url: '/'
     },
     {
-      id: '1',
-      label: 'Hola',
-      icon: FcAdvertising,
+      id: '3',
+      label: 'Energia',
+      icon: FcChargeBattery,
       url: '/'
-    }
+    },
+    {
+      id: '4',
+      label: 'Metricas',
+      icon: FcBullish,
+      url: '/'
+    },
+    {
+      id: '5',
+      label: 'Calendario',
+      icon: FcPlanner,
+      url: '/'
+    },
+    {
+      id: '6',
+      label: 'Comentarios',
+      icon: FcComments,
+      url: '/'
+    },
+    {
+      id: '7',
+      label: 'Soporte',
+      icon: FcCustomerSupport,
+      url: '/'
+    },
+    {
+      id: '8',
+      label: 'Organizacion',
+      icon: FcFlowChart,
+      url: '/'
+    },
+    {
+      id: '9',
+      label: 'Busqueda',
+      icon: FcSearch,
+      url: '/'
+    },
+    {
+      id: '10',
+      label: 'Configuraciones',
+      icon: FcSettings,
+      url: '/'
+    },
   ];
 
   const card: SideBarMenuCard = {

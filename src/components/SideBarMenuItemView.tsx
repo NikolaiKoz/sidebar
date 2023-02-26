@@ -2,6 +2,8 @@
 import { SideBarMenuItem } from "../types/types";
 import { classNames } from "../util/class";
 
+import './SideBarMenuItemView.scss';
+
 interface SideBarMenuItemViewProps{
     item: SideBarMenuItem,
     isOpen: boolean
@@ -19,7 +21,7 @@ export default function SideBarMenuItemView({item, isOpen}: SideBarMenuItemViewP
                 </div>
             </a>
             {
-                !isOpen? <div className="tooltop">{item.label}</div> : ''
+                !isOpen? <div className="tooltip">{item.label}</div> : ''
             }
         </div>
     );
